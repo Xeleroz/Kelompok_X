@@ -96,15 +96,6 @@ public class HelloController {
         stageMenu.show();
     }
 
-    public void toMasukanPIN(ActionEvent eventMenu) throws IOException {
-        Parent toMenu = FXMLLoader.load(getClass().getResource("MasukanPIN.fxml"));
-        Scene sceneMenu = new Scene(toMenu);
-        Stage stageMenu = (Stage) ((Node) eventMenu.getSource()).getScene().getWindow();
-
-        stageMenu.setScene(sceneMenu);
-        stageMenu.show();
-    }
-
     public void toPembayaran(ActionEvent eventMenu) throws IOException {
         Parent toMenu = FXMLLoader.load(getClass().getResource("Pembayaran.fxml"));
         Scene sceneMenu = new Scene(toMenu);
@@ -122,6 +113,7 @@ public class HelloController {
         stageMenu.setScene(sceneMenu);
         stageMenu.show();
     }
+
     public void toProfile(ActionEvent eventMenu) throws IOException {
         Parent toMenu = FXMLLoader.load(getClass().getResource("Profile.fxml"));
         Scene sceneMenu = new Scene(toMenu);
@@ -130,6 +122,7 @@ public class HelloController {
         stageMenu.setScene(sceneMenu);
         stageMenu.show();
     }
+
     public void toAturLimit(ActionEvent eventMenu) throws IOException {
         Parent toMenu = FXMLLoader.load(getClass().getResource("AturLimit.fxml"));
         Scene sceneMenu = new Scene(toMenu);
@@ -138,8 +131,63 @@ public class HelloController {
         stageMenu.setScene(sceneMenu);
         stageMenu.show();
     }
+
     public void toBlokir(ActionEvent eventMenu) throws IOException {
         Parent toMenu = FXMLLoader.load(getClass().getResource("BlokirKartu.fxml"));
+        Scene sceneMenu = new Scene(toMenu);
+        Stage stageMenu = (Stage) ((Node) eventMenu.getSource()).getScene().getWindow();
+
+        stageMenu.setScene(sceneMenu);
+        stageMenu.show();
+    }
+
+    public void PINtoTransferSesamaBank(ActionEvent eventMenu) throws IOException {
+        Parent toMenu = FXMLLoader.load(getClass().getResource("PinTransferSesamaBank.fxml"));
+        Scene sceneMenu = new Scene(toMenu);
+        Stage stageMenu = (Stage) ((Node) eventMenu.getSource()).getScene().getWindow();
+
+        stageMenu.setScene(sceneMenu);
+        stageMenu.show();
+    }
+
+    public void PINtoTransferAntarBank(ActionEvent eventMenu) throws IOException {
+        Parent toMenu = FXMLLoader.load(getClass().getResource("PinTransferAntarBank.fxml"));
+        Scene sceneMenu = new Scene(toMenu);
+        Stage stageMenu = (Stage) ((Node) eventMenu.getSource()).getScene().getWindow();
+
+        stageMenu.setScene(sceneMenu);
+        stageMenu.show();
+    }
+
+    public void PINtoCekSaldo(ActionEvent eventMenu) throws IOException {
+        Parent toMenu = FXMLLoader.load(getClass().getResource("PiinCekSaldo.fxml"));
+        Scene sceneMenu = new Scene(toMenu);
+        Stage stageMenu = (Stage) ((Node) eventMenu.getSource()).getScene().getWindow();
+
+        stageMenu.setScene(sceneMenu);
+        stageMenu.show();
+    }
+
+    public void PINtoMutasiRekening(ActionEvent eventMenu) throws IOException {
+        Parent toMenu = FXMLLoader.load(getClass().getResource("PinMutasiRekening.fxml"));
+        Scene sceneMenu = new Scene(toMenu);
+        Stage stageMenu = (Stage) ((Node) eventMenu.getSource()).getScene().getWindow();
+
+        stageMenu.setScene(sceneMenu);
+        stageMenu.show();
+    }
+
+    public void PINtoAturLimit(ActionEvent eventMenu) throws IOException {
+        Parent toMenu = FXMLLoader.load(getClass().getResource("PinAturLimit.fxml"));
+        Scene sceneMenu = new Scene(toMenu);
+        Stage stageMenu = (Stage) ((Node) eventMenu.getSource()).getScene().getWindow();
+
+        stageMenu.setScene(sceneMenu);
+        stageMenu.show();
+    }
+
+    public void PINtoBlokir(ActionEvent eventMenu) throws IOException {
+        Parent toMenu = FXMLLoader.load(getClass().getResource("PinBlokir.fxml"));
         Scene sceneMenu = new Scene(toMenu);
         Stage stageMenu = (Stage) ((Node) eventMenu.getSource()).getScene().getWindow();
 
